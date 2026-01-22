@@ -1,13 +1,6 @@
-# KiCad temp files
-*.000
-*.bak
-*.bck
+﻿*.bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.kicad_prl
 *.fp-info-cache
-_autosave-*
 *.lck
-
-# Windows specific
-Thumbs.db
+_autosave-*
