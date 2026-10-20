@@ -117,4 +117,4 @@ Unprotected tests of an unvalidated design can short VBUS to data lines or back-
 See [docs/decisions-and-roadmap.md](docs/decisions-and-roadmap.md). Add a real board photograph and bench-test report once hardware exists.
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [CLAUDE.md](CLAUDE.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md).
