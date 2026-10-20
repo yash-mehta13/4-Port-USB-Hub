@@ -1,0 +1,20 @@
+name: Design / documentation bug
+description: Schematic, PCB, library, reproducibility or documentation problem
+labels: [bug]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Schematic, PCB layout, Symbol/footprint library, 3D model, BOM, Reproducibility, Documentation, Missing asset]
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: What is wrong?, description: Reference designators, nets, pins, screenshot}
+    validations: {required: true}
+  - type: input
+    id: kicad
+    attributes: {label: KiCad version}
+  - type: textarea
+    id: evidence
+    attributes: {label: Evidence, description: Datasheet page, ERC/DRC output, measurement}

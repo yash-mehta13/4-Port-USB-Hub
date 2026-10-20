@@ -1,6 +1,15 @@
-﻿*.bak
+*.bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *.fp-info-cache
+fp-info-cache
+sym-info-cache
 *.lck
 _autosave-*
+*-rescue.*
+*.kicad_prl
+~*.kicad_*
+# Gerber/fab outputs are generated for review, not committed by default
+/fabrication-output/
+/gerbers/
+__pycache__/
